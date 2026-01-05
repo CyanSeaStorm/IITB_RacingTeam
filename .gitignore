@@ -1,0 +1,12 @@
+# ROS 2 build artifacts
+/build/
+/install/
+/log/
+
+# Editor files
+.vscode/
+*.swp
+
+# Compiled objects
+*.o
+*.so
