@@ -2,47 +2,49 @@
 #include <visualization_msgs/msg/marker.hpp>
 #include <geometry_msgs/msg/point.hpp>
 
-#include <cmath>
+#include <chrono>
+
+using namespace std::chrono_literals;
 
 class DampedSHM : public rclcpp::Node
 {
 public:
-  DampedSHM() : Node("damped_shm")
+  DampedSHM()
+  : Node("damped_shm")
   {
-    // Publisher
+    // ================= PARAMETERS =================
+    A_     = 2.0;   // initial displacement
+    beta_  = 0.3;   // damping coefficient
+    omega_ = 2.0;   // angular frequency
+    dt_    = 0.05;  // timestep
+
+    // ================= INITIAL STATE =================
+    x_ = A_;
+    v_ = 0.0;
+
     marker_pub_ =
       this->create_publisher<visualization_msgs::msg::Marker>(
         "visualization_marker", 10);
 
-    // Time zero = simulation start
-    start_time_ = this->now();
-
-    // Timer only triggers updates (NOT physics time)
     timer_ = this->create_wall_timer(
-      std::chrono::milliseconds(50),
-      std::bind(&DampedSHM::publishMarkers, this));
+      std::chrono::duration<double>(dt_),
+      std::bind(&DampedSHM::stepSimulation, this));
   }
 
 private:
-  void publishMarkers()
+  // ================= PHYSICS STEP =================
+  void stepSimulation()
   {
-    // ROS time
+    // Acceleration from ODE (NO trig / exp)
+    double a = -2.0 * beta_ * v_ - omega_ * omega_ * x_;
+
+    // Semi-implicit Euler
+    v_ += a * dt_;
+    x_ += v_ * dt_;
+
     rclcpp::Time now = this->now();
 
-    // Time since simulation started
-    static double t = 0.0;
-    t += 0.05;   // matches 50 ms timer
-
-
-    // ================= DAMPED SHM PARAMETERS =================
-    const double A     = 2.0;   // amplitude
-    const double beta  = 0;   // damping coefficient (visible)
-    const double omega = 2.0;   // angular frequency
-
-    // Damped SHM equation
-    double x = A * std::exp(-beta * t) * std::cos(omega * t);
-
-    // ================= CENTER (CYLINDER) =================
+    // -------- CENTER --------
     visualization_msgs::msg::Marker center;
     center.header.frame_id = "base_link";
     center.header.stamp = now;
@@ -53,19 +55,17 @@ private:
 
     center.pose.position.x = 0.0;
     center.pose.position.y = 0.0;
-    center.pose.position.z = 0.25;   // lifted from grid
+    center.pose.position.z = 0.25;
     center.pose.orientation.w = 1.0;
 
     center.scale.x = 0.2;
     center.scale.y = 0.2;
     center.scale.z = 0.5;
 
-    center.color.r = 0.0f;
     center.color.g = 1.0f;
-    center.color.b = 0.0f;
     center.color.a = 1.0f;
 
-    // ================= BALL (SPHERE) =================
+    // -------- BALL --------
     visualization_msgs::msg::Marker ball;
     ball.header.frame_id = "base_link";
     ball.header.stamp = now;
@@ -74,8 +74,7 @@ private:
     ball.type = visualization_msgs::msg::Marker::SPHERE;
     ball.action = visualization_msgs::msg::Marker::ADD;
 
-    ball.pose.position.x = x;
-    ball.pose.position.y = 0.0;
+    ball.pose.position.x = x_;
     ball.pose.position.z = 0.25;
     ball.pose.orientation.w = 1.0;
 
@@ -84,11 +83,9 @@ private:
     ball.scale.z = 0.3;
 
     ball.color.r = 1.0f;
-    ball.color.g = 0.0f;
-    ball.color.b = 0.0f;
     ball.color.a = 1.0f;
 
-    // ================= SPRING (LINE_STRIP) =================
+    // -------- SPRING --------
     visualization_msgs::msg::Marker spring;
     spring.header.frame_id = "base_link";
     spring.header.stamp = now;
@@ -98,34 +95,34 @@ private:
     spring.action = visualization_msgs::msg::Marker::ADD;
 
     spring.scale.x = 0.05;
-
-    spring.color.r = 0.0f;
-    spring.color.g = 0.0f;
     spring.color.b = 1.0f;
     spring.color.a = 1.0f;
 
     geometry_msgs::msg::Point p1, p2;
-    p1.x = 0.0;
-    p1.y = 0.0;
-    p1.z = 0.25;
-
-    p2.x = x;
-    p2.y = 0.0;
-    p2.z = 0.25;
-
+    p1.x = 0.0; p1.z = 0.25;
+    p2.x = x_;  p2.z = 0.25;
     spring.points = {p1, p2};
 
-    // ================= PUBLISH =================
     marker_pub_->publish(center);
     marker_pub_->publish(ball);
     marker_pub_->publish(spring);
+
+    // -------- LOG --------
+    RCLCPP_INFO(
+      this->get_logger(),
+      "x=%.3f | v=%.3f | a=%.3f",
+      x_, v_, a);
   }
 
+  // ================= MEMBERS =================
   rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub_;
   rclcpp::TimerBase::SharedPtr timer_;
-  rclcpp::Time start_time_;
+
+  double x_, v_;
+  double A_, beta_, omega_, dt_;
 };
 
+// ================= MAIN =================
 int main(int argc, char **argv)
 {
   rclcpp::init(argc, argv);

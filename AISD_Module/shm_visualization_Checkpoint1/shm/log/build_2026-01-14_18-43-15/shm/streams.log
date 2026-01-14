@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm -- -j20 -l20
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target shm[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/shm.dir/src/spring.cpp.o[0m
+[2.299s] [100%] [32m[1mLinking CXX executable shm[0m
+[2.414s] [100%] Built target shm
+[2.423s] Invoked command in '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm -- -j20 -l20
+[2.429s] Invoking command in '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm
+[2.435s] -- Install configuration: ""
+[2.435s] -- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/shm/shm
+[2.437s] -- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/shm/shm" to ""
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/ament_index/resource_index/package_run_dependencies/shm
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/ament_index/resource_index/parent_prefix_path/shm
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/ament_prefix_path.sh
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/ament_prefix_path.dsv
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/path.sh
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/path.dsv
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/local_setup.bash
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/local_setup.sh
+[2.437s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/local_setup.zsh
+[2.438s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/local_setup.dsv
+[2.438s] -- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/package.dsv
+[2.438s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/ament_index/resource_index/packages/shm
+[2.438s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shmConfig.cmake
+[2.438s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shmConfig-version.cmake
+[2.438s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/package.xml
+[2.439s] Invoked command in '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm

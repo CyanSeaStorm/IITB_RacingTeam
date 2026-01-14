@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/pratik/ros2_ws/src/shm/install/shm"}
+: ${AMENT_CURRENT_PREFIX:="/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \
