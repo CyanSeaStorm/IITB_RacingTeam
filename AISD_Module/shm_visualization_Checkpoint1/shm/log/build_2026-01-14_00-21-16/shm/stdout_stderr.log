@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target shm[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/shm.dir/src/spring.cpp.o[0m
+[100%] [32m[1mLinking CXX executable shm[0m
+[100%] Built target shm
+-- Install configuration: ""
+-- Installing: /home/pratik/ros2_ws/src/shm/install/shm/lib/shm/shm
+-- Set runtime path of "/home/pratik/ros2_ws/src/shm/install/shm/lib/shm/shm" to ""
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/ament_index/resource_index/package_run_dependencies/shm
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/ament_index/resource_index/parent_prefix_path/shm
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/environment/ament_prefix_path.sh
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/environment/path.sh
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/environment/path.dsv
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/local_setup.bash
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/local_setup.sh
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/local_setup.zsh
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/local_setup.dsv
+-- Installing: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/package.dsv
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/ament_index/resource_index/packages/shm
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/cmake/shmConfig.cmake
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/cmake/shmConfig-version.cmake
+-- Up-to-date: /home/pratik/ros2_ws/src/shm/install/shm/share/shm/package.xml

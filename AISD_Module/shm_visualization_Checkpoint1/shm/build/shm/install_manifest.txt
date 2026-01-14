@@ -1,0 +1,16 @@
+/home/pratik/ros2_ws/src/shm/install/shm/lib/shm/shm
+/home/pratik/ros2_ws/src/shm/install/shm/share/ament_index/resource_index/package_run_dependencies/shm
+/home/pratik/ros2_ws/src/shm/install/shm/share/ament_index/resource_index/parent_prefix_path/shm
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/environment/ament_prefix_path.sh
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/environment/ament_prefix_path.dsv
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/environment/path.sh
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/environment/path.dsv
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/local_setup.bash
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/local_setup.sh
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/local_setup.zsh
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/local_setup.dsv
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/package.dsv
+/home/pratik/ros2_ws/src/shm/install/shm/share/ament_index/resource_index/packages/shm
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/cmake/shmConfig.cmake
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/cmake/shmConfig-version.cmake
+/home/pratik/ros2_ws/src/shm/install/shm/share/shm/package.xml

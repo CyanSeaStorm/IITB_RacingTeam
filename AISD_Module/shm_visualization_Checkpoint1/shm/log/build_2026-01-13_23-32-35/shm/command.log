@@ -1,0 +1,2 @@
+Invoking command in '/home/pratik/ros2_ws/src/shm/build/shm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pratik/ros2_ws/src/shm -DCMAKE_INSTALL_PREFIX=/home/pratik/ros2_ws/src/shm/install/shm
+Invoked command in '/home/pratik/ros2_ws/src/shm/build/shm' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pratik/ros2_ws/src/shm -DCMAKE_INSTALL_PREFIX=/home/pratik/ros2_ws/src/shm/install/shm

@@ -1,0 +1,10 @@
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/uninstall.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/shm_uninstall.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/shm.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/test.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/edit_cache.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/rebuild_cache.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/list_install_components.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/install.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/install/local.dir
+/home/pratik/ros2_ws/src/shm/build/shm/CMakeFiles/install/strip.dir
