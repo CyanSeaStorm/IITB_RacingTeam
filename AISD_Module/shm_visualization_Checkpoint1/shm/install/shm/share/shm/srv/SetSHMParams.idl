@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shm/srv/SetSHMParams.srv
+// generated code does not contain a copyright notice
+
+
+module shm {
+  module srv {
+    struct SetSHMParams_Request {
+      double mass;
+
+      double omega;
+
+      double beta;
+    };
+    struct SetSHMParams_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

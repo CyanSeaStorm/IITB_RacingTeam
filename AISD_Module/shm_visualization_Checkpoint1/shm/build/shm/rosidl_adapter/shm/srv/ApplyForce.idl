@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shm/srv/ApplyForce.srv
+// generated code does not contain a copyright notice
+
+
+module shm {
+  module srv {
+    struct ApplyForce_Request {
+      @verbatim (language="comment", text=
+        "Newtons")
+      double force;
+
+      @verbatim (language="comment", text=
+        "seconds")
+      double duration;
+    };
+    struct ApplyForce_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

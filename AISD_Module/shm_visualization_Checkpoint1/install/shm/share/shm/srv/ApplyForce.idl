@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shm/srv/ApplyForce.srv
+// generated code does not contain a copyright notice
+
+
+module shm {
+  module srv {
+    struct ApplyForce_Request {
+      double force;
+    };
+    struct ApplyForce_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

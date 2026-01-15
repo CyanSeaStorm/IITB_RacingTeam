@@ -1,0 +1,7 @@
+{
+  "package_name": "shm",
+  "non_idl_tuples": [
+    "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm:srv/SetSHMParams.srv",
+    "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm:srv/ApplyForce.srv"
+  ]
+}

@@ -1,0 +1,5 @@
+float64 force        # Newtons
+float64 duration     # seconds
+---
+bool success
+string message

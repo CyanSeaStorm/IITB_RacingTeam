@@ -1,0 +1,4 @@
+srv/SetSHMParams.idl
+srv/SetSHMParams.srv
+srv/SetSHMParams_Request.msg
+srv/SetSHMParams_Response.msg

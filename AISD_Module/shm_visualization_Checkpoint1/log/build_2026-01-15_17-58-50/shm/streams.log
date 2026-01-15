@@ -1,0 +1,187 @@
+[0.006s] Invoking command in '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/build/shm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/build/shm -- -j20 -l20
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_generator_c[0m
+[0.044s] [  2%] Built target shm__cpp
+[0.044s] [ 12%] Built target shm__rosidl_generator_c
+[0.049s] [ 12%] Built target ament_cmake_python_copy_shm
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_c[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_introspection_cpp[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_fastrtps_cpp[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_cpp[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_introspection_c[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_fastrtps_c[0m
+[0.065s] [ 21%] Built target shm__rosidl_typesupport_c
+[0.068s] [ 31%] Built target shm__rosidl_typesupport_cpp
+[0.069s] [ 41%] Built target shm__rosidl_typesupport_introspection_c
+[0.069s] [ 51%] Built target shm__rosidl_typesupport_fastrtps_cpp
+[0.069s] [ 60%] Built target shm__rosidl_typesupport_introspection_cpp
+[0.075s] [ 70%] Built target shm__rosidl_typesupport_fastrtps_c
+[0.090s] [ 70%] Built target shm
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target damped_shm_node[0m
+[0.102s] [ 73%] Built target shm__py
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_generator_py[0m
+[0.109s] [ 78%] Built target damped_shm_node
+[0.117s] [ 85%] Built target shm__rosidl_generator_py
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_c__pyext[0m
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_introspection_c__pyext[0m
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target shm__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.132s] [ 90%] Built target shm__rosidl_typesupport_introspection_c__pyext
+[0.133s] [100%] Built target shm__rosidl_typesupport_fastrtps_c__pyext
+[0.133s] [100%] Built target shm__rosidl_typesupport_c__pyext
+[0.178s] running egg_info
+[0.178s] writing shm.egg-info/PKG-INFO
+[0.178s] writing dependency_links to shm.egg-info/dependency_links.txt
+[0.178s] writing top-level names to shm.egg-info/top_level.txt
+[0.179s] reading manifest file 'shm.egg-info/SOURCES.txt'
+[0.179s] writing manifest file 'shm.egg-info/SOURCES.txt'
+[0.194s] [100%] Built target ament_cmake_python_build_shm_egg
+[0.202s] Invoked command in '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/build/shm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/build/shm -- -j20 -l20
+[0.208s] Invoking command in '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/build/shm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/build/shm
+[0.213s] -- Install configuration: ""
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/ament_index/resource_index/rosidl_interfaces/shm
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__struct.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__functions.c
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__functions.c
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__functions.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__type_support.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__functions.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__struct.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__type_support.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/apply_force.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/set_shm_params.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg/rosidl_generator_c__visibility_control.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/environment/library_path.sh
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/environment/library_path.dsv
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/libshm__rosidl_generator_c.so
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__rosidl_typesupport_fastrtps_c.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__rosidl_typesupport_fastrtps_c.h
+[0.213s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/libshm__rosidl_typesupport_fastrtps_c.so
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/apply_force.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__builder.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__struct.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__type_support.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__struct.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__traits.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__traits.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__type_support.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__builder.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/set_shm_params.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/dds_fastrtps
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__rosidl_typesupport_fastrtps_cpp.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__rosidl_typesupport_fastrtps_cpp.hpp
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/libshm__rosidl_typesupport_fastrtps_cpp.so
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__rosidl_typesupport_introspection_c.h
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__rosidl_typesupport_introspection_c.h
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__type_support.c
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__type_support.c
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/libshm__rosidl_typesupport_introspection_c.so
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/libshm__rosidl_typesupport_c.so
+[0.214s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__type_support.cpp
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__type_support.cpp
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/set_shm_params__rosidl_typesupport_introspection_cpp.hpp
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/include/shm/shm/srv/detail/apply_force__rosidl_typesupport_introspection_cpp.hpp
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/libshm__rosidl_typesupport_introspection_cpp.so
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/libshm__rosidl_typesupport_cpp.so
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/environment/pythonpath.sh
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/environment/pythonpath.dsv
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info
+[0.215s] -- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info/PKG-INFO
+[0.215s] -- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.215s] -- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info/top_level.txt
+[0.215s] -- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/_shm_s.ep.rosidl_typesupport_c.c
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/__init__.py
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/_shm_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/_shm_s.ep.rosidl_typesupport_introspection_c.c
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/libshm__rosidl_generator_py.so
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/srv
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/srv/__init__.py
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/srv/_apply_force.py
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/srv/_apply_force_s.c
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/srv/_set_shm_params.py
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/srv/_set_shm_params_s.c
+[0.215s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.235s] Listing '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm'...
+[0.235s] Listing '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/srv'...
+[0.237s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.237s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.237s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/libshm__rosidl_generator_py.so
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/srv/SetSHMParams.idl
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/srv/ApplyForce.idl
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/srv/SetSHMParams.srv
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/srv/SetSHMParams_Request.msg
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/srv/SetSHMParams_Response.msg
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/srv/ApplyForce.srv
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/srv/ApplyForce_Request.msg
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/srv/ApplyForce_Response.msg
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/lib/shm/damped_shm_node
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/ament_index/resource_index/package_run_dependencies/shm
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/ament_index/resource_index/parent_prefix_path/shm
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/environment/ament_prefix_path.sh
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/environment/ament_prefix_path.dsv
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/environment/path.sh
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/environment/path.dsv
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/local_setup.bash
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/local_setup.sh
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/local_setup.zsh
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/local_setup.dsv
+[0.238s] -- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/package.dsv
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/ament_index/resource_index/packages/shm
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_generator_cExport.cmake
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_generator_cExport-noconfig.cmake
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_typesupport_fastrtps_cExport.cmake
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_generator_cppExport.cmake
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shm__rosidl_typesupport_introspection_cExport.cmake
+[0.238s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shm__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shm__rosidl_typesupport_cExport.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shm__rosidl_typesupport_cExport-noconfig.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shm__rosidl_typesupport_introspection_cppExport.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shm__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shm__rosidl_typesupport_cppExport.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shm__rosidl_typesupport_cppExport-noconfig.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_generator_pyExport.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/export_shm__rosidl_generator_pyExport-noconfig.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/rosidl_cmake-extras.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/ament_cmake_export_libraries-extras.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/ament_cmake_export_targets-extras.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shmConfig.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/cmake/shmConfig-version.cmake
+[0.239s] -- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/install/shm/share/shm/package.xml
+[0.240s] Invoked command in '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/build/shm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/build/shm

@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000376] (shm) JobQueued: {'identifier': 'shm', 'dependencies': OrderedDict()}
+[0.000449] (shm) JobStarted: {'identifier': 'shm'}
+[0.004367] (shm) JobProgress: {'identifier': 'shm', 'progress': 'cmake'}
+[0.004856] (shm) JobProgress: {'identifier': 'shm', 'progress': 'build'}
+[0.005475] (shm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm', '--', '-j20', '-l20'], 'cwd': '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratik'), ('OLDPWD', '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1925'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b348d57220e252b95924cb76968c800'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratik'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/pratik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratik-Legion-5-15IRX9:@/tmp/.ICE-unix/1925,unix/pratik-Legion-5-15IRX9:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/536fa37f_03b7_4487_909a_c432dfd06dde'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RFHBJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b348d57220e252b95924cb76968c800'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024161] (shm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099995] (-) TimerEvent: {}
+[0.113394] (shm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.128613] (shm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.129721] (shm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.132896] (shm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.137617] (shm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.143760] (shm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.159679] (shm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.160326] (shm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200086] (-) TimerEvent: {}
+[0.224537] (shm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.254380] (shm) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.279054] (shm) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.300178] (-) TimerEvent: {}
+[0.400378] (-) TimerEvent: {}
+[0.430720] (shm) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.500483] (-) TimerEvent: {}
+[0.600688] (-) TimerEvent: {}
+[0.622476] (shm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700792] (-) TimerEvent: {}
+[0.705917] (shm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.720869] (shm) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.743450] (shm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.743607] (shm) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.743668] (shm) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.752576] (shm) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[0.752656] (shm) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[0.752686] (shm) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[0.752710] (shm) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.752734] (shm) StderrLine: {'line': b'  CMakeLists.txt:34 (rosidl_target_interfaces)\n'}
+[0.752757] (shm) StderrLine: {'line': b'\n'}
+[0.752780] (shm) StderrLine: {'line': b'\x1b[0m\n'}
+[0.754605] (shm) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.770273] (shm) StdoutLine: {'line': b'-- Generating done\n'}
+[0.776399] (shm) StdoutLine: {'line': b'-- Build files have been written to: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm\n'}
+[0.793911] (shm) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.800903] (-) TimerEvent: {}
+[0.801376] (shm) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.805091] (shm) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_shm\n'}
+[0.901016] (-) TimerEvent: {}
+[0.921925] (shm) StdoutLine: {'line': b'running egg_info\n'}
+[0.922080] (shm) StdoutLine: {'line': b'creating shm.egg-info\n'}
+[0.922124] (shm) StdoutLine: {'line': b'writing shm.egg-info/PKG-INFO\n'}
+[0.922162] (shm) StdoutLine: {'line': b'writing dependency_links to shm.egg-info/dependency_links.txt\n'}
+[0.922204] (shm) StdoutLine: {'line': b'writing top-level names to shm.egg-info/top_level.txt\n'}
+[0.922278] (shm) StdoutLine: {'line': b"writing manifest file 'shm.egg-info/SOURCES.txt'\n"}
+[0.923404] (shm) StdoutLine: {'line': b"reading manifest file 'shm.egg-info/SOURCES.txt'\n"}
+[0.923691] (shm) StdoutLine: {'line': b"writing manifest file 'shm.egg-info/SOURCES.txt'\n"}
+[0.939410] (shm) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_shm_egg\n'}
+[0.940149] (shm) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/shm__rosidl_generator_c.dir/rosidl_generator_c/shm/srv/detail/set_shm_params__functions.c.o\x1b[0m\n'}
+[0.948730] (shm) StdoutLine: {'line': b'[  9%] Built target shm__cpp\n'}
+[0.955144] (shm) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.956451] (shm) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.956531] (shm) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.972271] (shm) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libshm__rosidl_generator_c.so\x1b[0m\n'}
+[0.997869] (shm) StdoutLine: {'line': b'[ 21%] Built target shm__rosidl_generator_c\n'}
+[1.001128] (-) TimerEvent: {}
+[1.006073] (shm) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.006225] (shm) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.006292] (shm) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.082668] (shm) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/shm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shm/srv/set_shm_params__type_support.cpp.o\x1b[0m\n'}
+[1.098472] (shm) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/shm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shm/srv/detail/set_shm_params__type_support.cpp.o\x1b[0m\n'}
+[1.101236] (-) TimerEvent: {}
+[1.116864] (shm) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/shm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shm/srv/detail/dds_fastrtps/set_shm_params__type_support.cpp.o\x1b[0m\n'}
+[1.140017] (shm) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/shm__rosidl_typesupport_c.dir/rosidl_typesupport_c/shm/srv/set_shm_params__type_support.cpp.o\x1b[0m\n'}
+[1.157944] (shm) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/shm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shm/srv/detail/set_shm_params__type_support_c.cpp.o\x1b[0m\n'}
+[1.158175] (shm) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/shm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shm/srv/detail/set_shm_params__type_support.c.o\x1b[0m\n'}
+[1.160965] (shm) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libshm__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.188363] (shm) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libshm__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.188933] (shm) StdoutLine: {'line': b'[ 54%] Built target shm__rosidl_typesupport_c\n'}
+[1.201377] (-) TimerEvent: {}
+[1.211562] (shm) StdoutLine: {'line': b'[ 54%] Built target shm__rosidl_typesupport_introspection_c\n'}
+[1.223099] (shm) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libshm__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.252722] (shm) StdoutLine: {'line': b'[ 57%] Built target shm__rosidl_typesupport_cpp\n'}
+[1.291782] (shm) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libshm__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.301483] (-) TimerEvent: {}
+[1.322742] (shm) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libshm__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.328952] (shm) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libshm__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.329210] (shm) StdoutLine: {'line': b'[ 66%] Built target shm__rosidl_typesupport_introspection_cpp\n'}
+[1.365600] (shm) StdoutLine: {'line': b'[ 66%] Built target shm__rosidl_typesupport_fastrtps_cpp\n'}
+[1.371352] (shm) StdoutLine: {'line': b'[ 66%] Built target shm__rosidl_typesupport_fastrtps_c\n'}
+[1.386919] (shm) StdoutLine: {'line': b'[ 66%] Built target shm\n'}
+[1.401596] (-) TimerEvent: {}
+[1.409480] (shm) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/damped_shm_node.dir/src/spring.cpp.o\x1b[0m\n'}
+[1.410691] (shm) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.501717] (-) TimerEvent: {}
+[1.596557] (shm) StdoutLine: {'line': b'[ 72%] Built target shm__py\n'}
+[1.601816] (-) TimerEvent: {}
+[1.610101] (shm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/shm__rosidl_generator_py.dir/rosidl_generator_py/shm/srv/_set_shm_params_s.c.o\x1b[0m\n'}
+[1.666971] (shm) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/shm/libshm__rosidl_generator_py.so\x1b[0m\n'}
+[1.693455] (shm) StdoutLine: {'line': b'[ 78%] Built target shm__rosidl_generator_py\n'}
+[1.701947] (-) TimerEvent: {}
+[1.705935] (shm) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/shm__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shm/_shm_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.707197] (shm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/shm__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/shm/_shm_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.707288] (shm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/shm__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shm/_shm_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.757931] (shm) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/shm/shm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.759393] (shm) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/shm/shm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.759997] (shm) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/shm/shm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.779530] (shm) StdoutLine: {'line': b'[ 96%] Built target shm__rosidl_typesupport_c__pyext\n'}
+[1.781936] (shm) StdoutLine: {'line': b'[ 96%] Built target shm__rosidl_typesupport_introspection_c__pyext\n'}
+[1.782523] (shm) StdoutLine: {'line': b'[ 96%] Built target shm__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.802107] (-) TimerEvent: {}
+[1.902392] (-) TimerEvent: {}
+[2.002669] (-) TimerEvent: {}
+[2.103010] (-) TimerEvent: {}
+[2.203375] (-) TimerEvent: {}
+[2.303660] (-) TimerEvent: {}
+[2.403980] (-) TimerEvent: {}
+[2.504263] (-) TimerEvent: {}
+[2.604642] (-) TimerEvent: {}
+[2.705003] (-) TimerEvent: {}
+[2.805312] (-) TimerEvent: {}
+[2.905611] (-) TimerEvent: {}
+[3.005966] (-) TimerEvent: {}
+[3.106275] (-) TimerEvent: {}
+[3.206654] (-) TimerEvent: {}
+[3.306962] (-) TimerEvent: {}
+[3.407288] (-) TimerEvent: {}
+[3.507769] (-) TimerEvent: {}
+[3.608054] (-) TimerEvent: {}
+[3.708299] (-) TimerEvent: {}
+[3.808570] (-) TimerEvent: {}
+[3.908828] (-) TimerEvent: {}
+[4.009102] (-) TimerEvent: {}
+[4.109369] (-) TimerEvent: {}
+[4.209611] (-) TimerEvent: {}
+[4.309863] (-) TimerEvent: {}
+[4.410127] (-) TimerEvent: {}
+[4.510381] (-) TimerEvent: {}
+[4.610688] (-) TimerEvent: {}
+[4.710997] (-) TimerEvent: {}
+[4.811296] (-) TimerEvent: {}
+[4.911504] (-) TimerEvent: {}
+[5.011732] (-) TimerEvent: {}
+[5.111970] (-) TimerEvent: {}
+[5.212212] (-) TimerEvent: {}
+[5.312528] (-) TimerEvent: {}
+[5.412809] (-) TimerEvent: {}
+[5.513026] (-) TimerEvent: {}
+[5.613283] (-) TimerEvent: {}
+[5.713571] (-) TimerEvent: {}
+[5.813865] (-) TimerEvent: {}
+[5.914131] (-) TimerEvent: {}
+[6.014434] (-) TimerEvent: {}
+[6.114747] (-) TimerEvent: {}
+[6.123838] (shm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable damped_shm_node\x1b[0m\n'}
+[6.214912] (-) TimerEvent: {}
+[6.315162] (-) TimerEvent: {}
+[6.366683] (shm) StdoutLine: {'line': b'[100%] Built target damped_shm_node\n'}
+[6.374131] (shm) CommandEnded: {'returncode': 0}
+[6.374606] (shm) JobProgress: {'identifier': 'shm', 'progress': 'install'}
+[6.382220] (shm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm'], 'cwd': '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pratik'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pratik'), ('OLDPWD', '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1925'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b348d57220e252b95924cb76968c800'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pratik'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pratik'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/pratik/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pratik-Legion-5-15IRX9:@/tmp/.ICE-unix/1925,unix/pratik-Legion-5-15IRX9:/tmp/.ICE-unix/1925'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/536fa37f_03b7_4487_909a_c432dfd06dde'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RFHBJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.214'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '66'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6b348d57220e252b95924cb76968c800'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.387368] (shm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.387570] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/ament_index/resource_index/rosidl_interfaces/shm\n'}
+[6.387624] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm\n'}
+[6.387702] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv\n'}
+[6.387742] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail\n'}
+[6.387834] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__functions.c\n'}
+[6.387875] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__functions.h\n'}
+[6.387973] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__struct.h\n'}
+[6.388019] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__type_support.h\n'}
+[6.388062] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/set_shm_params.h\n'}
+[6.388137] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg\n'}
+[6.388217] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.388256] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/library_path.sh\n'}
+[6.388301] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/library_path.dsv\n'}
+[6.388335] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_generator_c.so\n'}
+[6.388432] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_generator_c.so" to ""\n'}
+[6.388527] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm\n'}
+[6.388567] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv\n'}
+[6.388625] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail\n'}
+[6.388666] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__rosidl_typesupport_fastrtps_c.h\n'}
+[6.388707] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg\n'}
+[6.388770] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.388838] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_fastrtps_c.so\n'}
+[6.388910] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.388998] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm\n'}
+[6.389035] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv\n'}
+[6.389075] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail\n'}
+[6.389153] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__struct.hpp\n'}
+[6.389195] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__type_support.hpp\n'}
+[6.389236] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__traits.hpp\n'}
+[6.389307] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__builder.hpp\n'}
+[6.389414] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/set_shm_params.hpp\n'}
+[6.389480] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg\n'}
+[6.389525] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.389568] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm\n'}
+[6.389632] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv\n'}
+[6.389673] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail\n'}
+[6.389715] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/dds_fastrtps\n'}
+[6.389803] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.389844] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg\n'}
+[6.389886] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.389945] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.389991] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.390061] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm\n'}
+[6.390161] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv\n'}
+[6.390202] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail\n'}
+[6.390259] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__rosidl_typesupport_introspection_c.h\n'}
+[6.390298] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__type_support.c\n'}
+[6.390336] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg\n'}
+[6.390375] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.390415] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_introspection_c.so\n'}
+[6.390497] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.390541] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_c.so\n'}
+[6.390689] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_c.so" to ""\n'}
+[6.390787] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm\n'}
+[6.390829] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv\n'}
+[6.390890] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail\n'}
+[6.390930] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__type_support.cpp\n'}
+[6.390974] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/include/shm/shm/srv/detail/set_shm_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.391042] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_introspection_cpp.so\n'}
+[6.391180] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.391239] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_cpp.so\n'}
+[6.391417] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_typesupport_cpp.so" to ""\n'}
+[6.391550] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/pythonpath.sh\n'}
+[6.391629] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/pythonpath.dsv\n'}
+[6.391703] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info\n'}
+[6.391796] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.391871] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.391954] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.391999] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.392071] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm\n'}
+[6.392150] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.392189] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/_shm_s.ep.rosidl_typesupport_c.c\n'}
+[6.392265] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/__init__.py\n'}
+[6.392306] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/_shm_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.392382] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/_shm_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.392429] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/libshm__rosidl_generator_py.so\n'}
+[6.392496] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.392567] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/srv\n'}
+[6.392604] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/srv/__init__.py\n'}
+[6.392683] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/srv/_set_shm_params.py\n'}
+[6.392722] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/srv/_set_shm_params_s.c\n'}
+[6.392788] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.415262] (-) TimerEvent: {}
+[6.415641] (shm) StdoutLine: {'line': b"Listing '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm'...\n"}
+[6.415733] (shm) StdoutLine: {'line': b"Compiling '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/__init__.py'...\n"}
+[6.415763] (shm) StdoutLine: {'line': b"Listing '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/srv'...\n"}
+[6.415789] (shm) StdoutLine: {'line': b"Compiling '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/srv/__init__.py'...\n"}
+[6.415813] (shm) StdoutLine: {'line': b"Compiling '/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/srv/_set_shm_params.py'...\n"}
+[6.417931] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.418162] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.418203] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.418252] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.418278] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.418302] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/local/lib/python3.10/dist-packages/shm/shm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.418336] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_generator_py.so\n'}
+[6.418360] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/libshm__rosidl_generator_py.so" to ""\n'}
+[6.418499] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/srv/SetSHMParams.idl\n'}
+[6.418565] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/srv/SetSHMParams.srv\n'}
+[6.418597] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/srv/SetSHMParams_Request.msg\n'}
+[6.418624] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/srv/SetSHMParams_Response.msg\n'}
+[6.418661] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/shm/damped_shm_node\n'}
+[6.420931] (shm) StdoutLine: {'line': b'-- Set runtime path of "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/lib/shm/damped_shm_node" to ""\n'}
+[6.421118] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/ament_index/resource_index/package_run_dependencies/shm\n'}
+[6.421160] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/ament_index/resource_index/parent_prefix_path/shm\n'}
+[6.421187] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/ament_prefix_path.sh\n'}
+[6.421212] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/ament_prefix_path.dsv\n'}
+[6.421237] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/path.sh\n'}
+[6.421261] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/environment/path.dsv\n'}
+[6.421284] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/local_setup.bash\n'}
+[6.421307] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/local_setup.sh\n'}
+[6.421346] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/local_setup.zsh\n'}
+[6.421400] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/local_setup.dsv\n'}
+[6.421430] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/package.dsv\n'}
+[6.421455] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/ament_index/resource_index/packages/shm\n'}
+[6.421480] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_generator_cExport.cmake\n'}
+[6.421504] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.421540] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.421594] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.421631] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_generator_cppExport.cmake\n'}
+[6.421655] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.421676] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.421697] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shm__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.421752] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shm__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.421779] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shm__rosidl_typesupport_cExport.cmake\n'}
+[6.421887] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shm__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.421911] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shm__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.421936] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shm__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.422002] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shm__rosidl_typesupport_cppExport.cmake\n'}
+[6.422027] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shm__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.422077] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_generator_pyExport.cmake\n'}
+[6.422112] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/export_shm__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.422135] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/rosidl_cmake-extras.cmake\n'}
+[6.422176] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.422216] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.422250] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.422290] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.422328] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.422369] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.422424] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shmConfig.cmake\n'}
+[6.422471] (shm) StdoutLine: {'line': b'-- Up-to-date: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/cmake/shmConfig-version.cmake\n'}
+[6.422515] (shm) StdoutLine: {'line': b'-- Installing: /home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/install/shm/share/shm/package.xml\n'}
+[6.423988] (shm) CommandEnded: {'returncode': 0}
+[6.433685] (shm) JobEnded: {'identifier': 'shm', 'rc': 0}
+[6.434000] (-) EventReactorShutdown: {}
