@@ -360,6 +360,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/shm/srv" TYPE FILE FILES "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm/rosidl_adapter/shm/srv/ApplyForce.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/shm/srv" TYPE FILE FILES "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/srv/SetSHMParams.srv")
 endif()
 
@@ -369,6 +373,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/shm/srv" TYPE FILE FILES "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm/rosidl_cmake/srv/SetSHMParams_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/shm/srv" TYPE FILE FILES "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/srv/ApplyForce.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/shm/srv" TYPE FILE FILES "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm/rosidl_cmake/srv/ApplyForce_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/shm/srv" TYPE FILE FILES "/home/pratik/IITB_RacingTeam/AISD_Module/shm_visualization_Checkpoint1/shm/build/shm/rosidl_cmake/srv/ApplyForce_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

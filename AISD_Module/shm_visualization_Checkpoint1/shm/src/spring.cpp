@@ -101,7 +101,10 @@ private:
   void stepSimulation()
   {
     // Compute acceleration: (-2βv − mω²x + Fext) / m
-    a_ = (-2.0 * beta_ * v_ - mass_ * omega_ * omega_ * x_ + Fext_) / mass_;
+    a_ = (-1.0*beta_ * v_ - mass_ * omega_ * omega_ * x_ + Fext_) / mass_; 
+
+    Fext_ = 0.0;
+
 
     // Semi-implicit Euler integration
     v_ += a_ * dt_;

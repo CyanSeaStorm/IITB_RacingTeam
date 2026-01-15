@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/shm/_shm_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/shm/_shm_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/shm/srv/__init__.py"
+  "../rosidl_generator_py/shm/srv/_apply_force.py"
+  "../rosidl_generator_py/shm/srv/_apply_force_s.c"
   "../rosidl_generator_py/shm/srv/_set_shm_params.py"
   "../rosidl_generator_py/shm/srv/_set_shm_params_s.c"
   "CMakeFiles/shm__py"

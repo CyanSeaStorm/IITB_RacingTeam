@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/shm__rosidl_generator_py.dir/rosidl_generator_py/shm/srv/_apply_force_s.c.o"
+  "CMakeFiles/shm__rosidl_generator_py.dir/rosidl_generator_py/shm/srv/_apply_force_s.c.o.d"
   "CMakeFiles/shm__rosidl_generator_py.dir/rosidl_generator_py/shm/srv/_set_shm_params_s.c.o"
   "CMakeFiles/shm__rosidl_generator_py.dir/rosidl_generator_py/shm/srv/_set_shm_params_s.c.o.d"
   "rosidl_generator_py/shm/libshm__rosidl_generator_py.pdb"
